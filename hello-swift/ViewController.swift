@@ -9,7 +9,13 @@
 import UIKit
 
 class ViewController: UIViewController {
+    @IBAction func tapGreen(_ sender: Any) {
+        view.backgroundColor = .green
+    }
 
+    @IBAction func tapWhite(_ sender: Any) {
+        view.backgroundColor = .white
+    }
     override func viewDidLoad() {
         print("Hello World!")
         super.viewDidLoad()
